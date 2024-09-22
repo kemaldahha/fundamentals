@@ -271,7 +271,7 @@ Determinant is like a scaling factor by which the matrix transforms the volume o
 
 If the determinant is non-zero, the matrix transforms space by stretching or compressing it, but still preserves some volume (or area in 2D). A non-zero determinant indicates that the transformation is invertible — you can "undo" the transformation and recover the original space.
 
-However, when the determinant is zero, the matrix collapses the space into a lower dimension (e.g., turning a 3D space into a 2D plane or a 2D plane into a line). In this case, the matrix has compressed all the volume to zero, effectively squashing the space into a flat, lower-dimensional subspace. This means that **information is lost** — points that were distinct before the transformation may now overlap after the transformation.
+However, when the determinant is zero, the matrix collapses the space into a lower dimension (e.g., turning a 3D space into a 2D plane or a 2D plane into a line). In this case, the matrix has compressed all the volume to zero, effectively squashing the space into a flat, lower-dimensional subspace. This means that **information is lost** — points that were distinct before the transformation may now overlap after the transformation. This means you can no longer undo (i.e. **invert**) the transformation.
 
 # Why can only square matrices have an inverse?
 
