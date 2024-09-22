@@ -1,18 +1,3 @@
----
-layout: default
----
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
-    "HTML-CSS": { linebreaks: { automatic: true } },
-    SVG: { linebreaks: { automatic: true } }
-  });
-</script>
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
 # Introduction
 
 Whenever I learn something new, I will explain it in this document.
@@ -154,7 +139,7 @@ $$
 \mathbf{(A^T)_{ij}} = \mathbf{A_{ji}}
 $$
 
-# Transpose of a Matrix Product $ (\mathbf{A} \mathbf{B})^T = \mathbf{B}^T \mathbf{A}^T $
+# Transpose of a Matrix Product $(\mathbf{A} \mathbf{B})^T = \mathbf{B}^T \mathbf{A}^T$
 
 The transpose of a product of two matrices is equal to the product of the matrices' transposes in reverse order.
 
@@ -233,7 +218,7 @@ $$
 (\mathbf{A} \mathbf{B} \mathbf{C})^T = \mathbf{C}^T \mathbf{B}^T \mathbf{A}^T
 $$
 
-# Derivative of the Quadratic Form $\frac {\partial} {\partial \mathbf{x}} (\mathbf{x}^T \mathbf{A} \mathbf{x})=$
+# Derivative of the Quadratic Form $\frac {\partial} {\partial \mathbf{x}} (\mathbf{x}^T \mathbf{A} \mathbf{x})$
 
 $$
 \begin{align*}

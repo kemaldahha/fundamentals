@@ -1,0 +1,1 @@
+This repo will contain my notes on various fundamentals, such as Linear Algebra, Calculus, and so on.
