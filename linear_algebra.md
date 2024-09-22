@@ -12,10 +12,6 @@ layout: default
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-# Introduction
-
-Whenever I learn something new, I will explain it in this document.
-
 # Vector Magnitude Notation or Norm
 
 The **magnitude** or **norm** of a vector $\mathbf v$ can be represented as:
